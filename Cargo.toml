@@ -1,0 +1,11 @@
+[package]
+name = "bigfoldergen"
+version = "0.2.0"
+edition = "2021"
+
+[dependencies]
+byte-unit = "5.1.4"
+clap = { version = "4.5.13", features = ["derive"] }
+clap_derive = "4.5.13"
+indicatif = "0.17.8"
+rand = "0.8.5"
